@@ -1,0 +1,198 @@
+* {
+    font-family: 'Inter', sans-serif;
+    font-family: 'Montserrat', sans-serif;
+  }
+
+.spazio_sotto {
+     padding-bottom: 10vh;
+   }
+
+.spazietto_sotto {
+        padding-bottom: 5vh;
+      }
+
+.spazietto_sopra {
+        padding-top: 5vh;
+      }
+
+.spazio_sopra {
+        padding-top: 10vh;
+      }
+
+.margine_sopra {
+        margin-top: 10vh;
+      }
+
+.marginetto_sopra {
+        margin-top: 3vh;
+      }
+
+.marginello_sopra {
+        margin-top: 10vh;
+      }
+
+.margine_sotto {
+        margin-bottom: 10vh;
+      }
+
+.marginetto_sotto {
+        margin-bottom: 3vh;
+      }
+
+.marginetto_lato {
+        margin-left: 3vh;
+      }
+
+.hero_and_content {
+  margin: 0 auto;
+  width: 100%;
+}
+
+.hero {
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  color: white;
+  background-size: cover;
+  background-position: center center;
+  background-repeat: no-repeat;
+  background-attachment: scroll;
+}
+
+@media screen and (min-width: 601px) {
+  section.hero {
+    font-size: 5em;
+    height: 100vh;
+  }
+}
+
+@media screen and (max-width: 600px) {
+  section.hero {
+    font-size: 2em;
+    height: 90vh;
+  }
+}
+
+img {
+  width: 100%; /* need to overwrite inline dimensions */
+  height: auto;
+}
+
+.album-listing {
+  position: relative;
+}
+
+.album-image {
+  line-height: 0;
+  overflow: hidden;
+}
+
+.album-image img {
+  filter: blur(0px);
+  transition: filter 0.3s ease-in;
+  transform: scale(1.1);
+}
+
+.album-title {
+  font-size: 2em;
+  font-weight: bold;
+  text-decoration: none;
+  z-index: 1;
+  position: absolute;
+  height: 100%;
+  width: 100%;
+  top: 0;
+  left: 0;
+  opacity: 0;
+  transition: opacity .5s;
+  background: rgba(114, 114, 114, 0.3);
+  color: white;
+
+  /* position the text in t’ middle*/
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.album-listing:hover .album-title {
+  opacity: 1;
+}
+
+.album-listing:hover .album-image img {
+  filter: blur(2px);
+}
+
+
+/* for touch screen devices */
+@media (hover: none) {
+  .album-title {
+    opacity: 1;
+  }
+  .album-image img {
+    filter: blur(2px);
+  }
+}
+
+p {
+  font-size: 17px;
+}
+
+.main_hero_and_content {
+  margin: 0 auto;
+  width: 100%;
+}
+
+.main_hero {
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  color: white;
+  background-size: cover;
+  background-position: center center;
+  background-repeat: no-repeat;
+  background-attachment: scroll;
+}
+
+@media screen and (min-width: 601px) {
+  section.main_hero {
+    font-size: 5em;
+    height: 100vh;
+  }
+}
+
+@media screen and (max-width: 600px) {
+  section.main_hero {
+    font-size: 2em;
+    height: 75vh;
+  }
+}
+
+@media screen and (min-width: 601px) {
+  section.main_hero_and_content {
+    height: 90vh;
+  }
+}
+
+@media screen and (max-width: 600px) {
+  section.main_hero_and_content {
+    height: 90vh;
+  }
+}
+
+/* The progress container (grey background) */
+.progress-container {
+  width: 100%;
+  height: 8px;
+  background: #ccc;
+}
+
+/* The progress bar (scroll indicator) */
+.progress-bar {
+  height: 8px;
+  background: #4caf50;
+  width: 0%;
+}

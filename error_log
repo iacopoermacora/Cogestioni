@@ -1,0 +1,2 @@
+[02-Nov-2022 15:14:53 UTC] PHP Warning:  mysqli_connect(): (HY000/2002): No such file or directory in /home/pedhymhc/public_html/config.php on line 10
+[02-Nov-2022 15:14:54 UTC] PHP Warning:  mysqli_connect(): (HY000/2002): No such file or directory in /home/pedhymhc/public_html/config.php on line 10

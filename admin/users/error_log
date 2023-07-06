@@ -1,0 +1,7 @@
+[20-Nov-2021 18:07:33 UTC] PHP Warning:  filesize(): stat failed for Fogli_firme_staff.zip in /home/pedhymhc/public_html/admin/users/downloads_script.php on line 72
+[20-Nov-2021 18:07:33 UTC] PHP Warning:  readfile(Fogli_firme_staff.zip): failed to open stream: No such file or directory in /home/pedhymhc/public_html/admin/users/downloads_script.php on line 73
+[20-Nov-2021 18:07:51 UTC] PHP Warning:  filesize(): stat failed for Appelli_cartacei.zip in /home/pedhymhc/public_html/admin/users/downloads_script.php on line 405
+[20-Nov-2021 18:07:51 UTC] PHP Warning:  readfile(Appelli_cartacei.zip): failed to open stream: No such file or directory in /home/pedhymhc/public_html/admin/users/downloads_script.php on line 406
+[20-Nov-2021 18:08:18 UTC] PHP Deprecated:  Function get_magic_quotes_runtime() is deprecated in /home/pedhymhc/public_html/fpdf.php on line 1043
+[20-Nov-2021 18:08:18 UTC] PHP Deprecated:  Function get_magic_quotes_runtime() is deprecated in /home/pedhymhc/public_html/fpdf.php on line 1043
+[30-Nov-2021 17:33:28 UTC] PHP Deprecated:  Function get_magic_quotes_runtime() is deprecated in /home/pedhymhc/public_html/fpdf.php on line 1043
